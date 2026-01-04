@@ -1,9 +1,8 @@
-import { FederatedPointerEvent, Graphics, Point, Ticker } from "pixi.js";
+import { Graphics, Point, Ticker } from "pixi.js";
 import type { MainScreen } from "./MainScreen";
 import { RacePoint } from "./RacePoint";
 import PointCollection from "./PointCollection";
 import Move from "./Move";
-import { animate } from "motion";
 
 export class Track {
   private static readonly TRACK_WIDTH = 40;
